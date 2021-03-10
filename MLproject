@@ -1,10 +1,7 @@
-name: tutorial
+name: aix-sample
 
-conda_env: conda.yaml
+conda_env: env.yaml
 
 entry_points:
   main:
-    parameters:
-      alpha: { type: float, default: 0.42 }
-      l1_ratio: { type: float, default: 0.1 }
-    command: "poetry update && poetry run python train.py {alpha} {l1_ratio}"
+    command: "poetry update && poetry run python house_prices/train.py"

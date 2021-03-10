@@ -1,14 +1,3 @@
-templates:
-    filter: 
-      - "*.py"
-      - "poetry.lock"
-    values:
-        - question: "Who should be the king?"
-          label:  "king"
-          default: "John Snow"
-        - question: "Who should be the queen?"
-          label: "queen"
-          default: "'Daenerys Stormborn of House Targaryen'"
 environment:
 setting: "Default"
-train_script: "train.py"
+train_script: "house_prices/train.py"
