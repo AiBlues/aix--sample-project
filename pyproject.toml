@@ -8,10 +8,8 @@ license = "Apache-2.0"
 [tool.poetry.dependencies]
 python = "~3.8"
 mlflow = "^1.13.1"
-maquette = "0.1.5"
+maquette = "0.1.6"
 shapash = "1.1.0"
-pytest = "^6.2.2"
-pylint = "^2.7.2"
 
 [tool.poetry.scripts]
 code_quality = "pylint house_prices > code_quality.txt"
