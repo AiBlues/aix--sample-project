@@ -5,7 +5,7 @@
 ## Install dependencies
 We use Poetry for dependency management, however it is best practice to create a basic conda environment before:
 ```
-conda env create -f ./conda.yaml -p ./env
+conda env create -f ./env.yaml -p ./env
 conda activate ./env
 poetry install -vvv
 ```
