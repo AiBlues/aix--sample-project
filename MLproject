@@ -4,4 +4,4 @@ conda_env: env.yaml
 
 entry_points:
   main:
-    command: "poetry update && poetry run python house_prices/train.py"
+    command: "poetry update -vvv && poetry run python house_prices/train.py"
