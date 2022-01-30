@@ -1,0 +1,9 @@
+environment:
+  AWS_ACCESS_KEY_ID: bee166ac
+  AWS_DEFAULT_REGION: mzg
+  AWS_SECRET_ACCESS_KEY: cfcbeb72
+  ENTRY_POINT_ENDPOINT: http://localhost:57844
+  ENTRY_POINT_LABEL: Mlflow Dashboard
+  MLFLOW_S3_ENDPOINT_URL: http://localhost:57838
+  MLFLOW_TRACKING_URI: http://localhost:57844
+workspace: alice-workspace
