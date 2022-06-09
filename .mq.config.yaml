@@ -1,0 +1,7 @@
+authentication:
+  roles:
+    - a-team
+    - b-team
+  type: stupid
+  username: michael
+url: http://localhost:9042

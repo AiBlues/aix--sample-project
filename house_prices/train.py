@@ -22,6 +22,9 @@ if __name__ == "__main__":
     # import the training set from the awesome maquette sdk
     train_df = mq.Dataset("house-prices-training").get()
 
+    # or locally
+    # train_df = pd.read_csv('./house_prices/data/train.csv')
+
     # Split the data into training and test sets. Per default(0.75, 0.25) split.
     train_df, test_df = train_test_split(train_df)
 
